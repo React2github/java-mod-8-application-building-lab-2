@@ -4,9 +4,10 @@
       <h3>Contact List</h3>
     </div>
   </div>
-  <div class="row">
+
+  <div class="row" *ngFor="let user of users">
     <div class="col-12 border p-3">
-      <app-contact></app-contact>
+      <app-contact [user]="user"></app-contact>
     </div>
   </div>
 

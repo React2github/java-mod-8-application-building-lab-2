@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Contacts implements OnInit {
 
+  users = [
+    { firstName: "Aurelie" },
+    { firstName: "James" },
+    { firstName: "Jessica" },
+    { firstName: "Ludovic" },
+    { firstName: "Maria" },
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
