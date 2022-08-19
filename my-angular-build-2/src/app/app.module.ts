@@ -13,7 +13,6 @@ import { UserMessageComponent } from './user-message/user-message.component';
 import { SenderMessageComponent } from './sender-message/sender-message.component';
 import { ContactComponent } from './contact/contact.component';
 import { Contacts } from './contacts/contacts.component';
-import { HeaderComponentComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { HeaderComponentComponent } from './header/header.component';
     SenderMessageComponent,
     ContactComponent,
         Contacts,
-         HeaderComponentComponent
   ],
   imports: [
     BrowserModule,
